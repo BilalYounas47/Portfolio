@@ -4,43 +4,502 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="dist/loading-bar.css">
+    <script src="index.js"></script>
+    <script type="text/javascript" src="dist/loading-bar.js"></script>
     <script src="https://kit.fontawesome.com/1796249c2f.js"></script>
     <title>Portfoliio!</title>
     
 </head>
 <body>
-  <div class="top-header">
-    <nav class="navbar justify-content-center navbar-expand-lg navbar-light">
-      <ul class="nav-inner">
-        <li>
+  <div class="top-header col-lg-12 col-xs-12">
+    <nav class="navbar  justify-content-center navbar-expand-lg navbar-light fixed-top">
+      
+      <ul class="nav-inner mt-3">
+        <li>                          
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <a href="#skill">Skills</a> 
         </li>
         <li>
-          <a href="#">Experience</a>
+          <a href="#service">Services</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     
 
     </nav>
-  </div>  
-  
+  </div> 
+  <!--Navbar End--> 
+  <!-- Main section-->
+  <section class="main" id="main">
+    <div class="container mt-5 pt-5 mr-5 pb-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <h3><span class="badge badge-info">Hello I'm</span></h3>
+          <div class="heading-section mt-5">
+            <h1>Bilal Younas</h1>
+            <h5>UI/UX Designer & Web Developer</h5>
+          </div>
+          <div class="info-section mt-5">
+          <li> 
+            <i class="fa fa-envelope "></i><a href="mailto:acridbilal@gmail.com"> Acridbilal@gmail.com</a>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt "></i><span>+923355407898</span>
+         </li>
+         <li>
+          <i class="fas fa-map-marker-alt"></i><span> G-7, Islamabad, Pakistan</span>
+         </li>
+             
+            
+          </div>
+          <div class="icon-section mt-5">
+            <ul class="icon-section-inner">
+              <li>
+                <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/itsbilal"><i class="fab fa-linkedin fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <div class="main-section-img">
+           <img src="images/main.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
     
 
+  </section>
+  <!--Main Section End-->
+  <!-- About Section Start -->
+    <Section class="about pt-1 mt-5" id="about">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-md-6">
+            <div class="about-section-img">
+              <img src="images/About-Section-pic.jpg " class="img-fluid " alt="">
+            </div>
+            <div class="about-info">
+              <p><span class="title-s">Age: </span> <span> 24 </span></p>
+              <p><span class="title-s">Nationality: </span> <span> Pakistani </span></p>
+              <p><span class="title-s">Freelance: </span> <span>Available</span></p>
+              
+            </div>
+          
+            
+            
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-6">
+            <div class="about-me-info mt-5">
+              <h3 class="section-title"> <u class="heading-underline">About Me</u></h3>
+              <h5>UI/UX Designer & Web Developer</h5>
+              I'm self-motivated, creative, and ambitious  with focus on front-end, CMS and user experience development.
+              
+                
+                I enjoy reading articles about international affairs, watching anime & Tv shows. 
+                Playing football and do anything development related.
+                
+              </p>
 
+            </div>
+            <a href="./New Resume.pdf" class="btn btn-outline-info btn-sm mt-3" role="button" aria-pressed="true">Download Resume</a>
+          </div>
+          
+        </div>
+      </div>
+      
+    </Section>
+  <!-- About Section End -->
+  <!-- Skills section Start -->
+  <section class="skill mt-5" id="skill">
+    <div class="container">
+      <h3 class="section-title pb-2 mb-4 text-center"><u class="heading-underline">Skills</u></h3>
+      <div class="row">
+        
+        <div class="col-md-5">
+          <h5 class="skill sub-h text-center pb-4">Technical Skills</h5>
+          <h6><p class="bar-heading">HTML&CSS</p></h6>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 90%;">90%</div>
+          </div>
+          <h6><p class="bar-heading">JAVASCRIPT</p></h6>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 60%;">60%</div>
+          </div>
+          <h6><p class="bar-heading">SQL</p></h6>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 60%;">60%</div>
+          </div>
+          <h6><p class="bar-heading">C&C++</p></h6>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%;">70%</div>
+          </div>
+          <h6><p class="bar-heading">Ps&LrC</p></h6>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%;">70%</div>
+          </div>
+          
+          
+        </div>
+
+        <div class="col-md-7">
+          <h5 class="skill sub-h text-center pb-4">Professional Skills</h5>
+          <div class="row mt-4">
+            <div class="col-sm-3">
+              <div class="ldBar label-center" path="mainline" data-value="80" data-preset="circle">
+              </div>
+              <h6 class="circle-h">Team Work</h6>
+            </div>
+            <div class="col-sm-3 ml-5">
+              <div class="ldBar label-center" data-value="70" data-preset="circle">
+              </div>
+              <h6 class="circle-h">Project Management</h6>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-3">
+              <div class="ldBar label-center" data-value="70" data-preset="circle">
+              </div>
+               <h6 class="circle-h">Communication</h6>
+            </div>
+            <div class="col-sm-3 ml-5">
+              <div class="ldBar label-center" data-value="65" data-preset="circle">
+              </div>
+              <h6 class="circle-h">Creativity</h6>
+            </div>
+          </div>
+          
+             
+        </div>
+         
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills section End -->
+
+  
+
+
+  <!--Services Section Start-->
+  <section class="services pt-5 " id="service" >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12 col-md-12">
+          <div class="title-box text-center">
+            <h3 class="title-a mb-5">  <u class="heading-underline"> Services </u></h3>
+            
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fas fa-desktop"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Web Design</h3>
+              <p class="s-description text-center">
+                Wiht my creativity I'll design an imapctful website.  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fas fa-code"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Web Development</h3>
+              <p class="s-description text-center">
+                I'll code a website that will meet the modern web standard with latest
+                frameworks, tools and libraries.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fas fa-address-card"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">CMS Development</h3>
+              <p class="s-description text-center">
+                I'll design and code CMS that fulfill all the requirment that will 
+                be need for bussiness growth and better customer service.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fas fa-mobile-alt"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Responsive Design</h3>
+              <p class="s-description text-center">
+                I'll design Web and CMS that provide you consistent delivery of 
+                your content in every viewport.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fab fa-docker"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Containerize</h3>
+              <p class="s-description text-center">
+                I can Containerize your application that will increase his 
+                efficiency, agility, app start-up and improve security.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="far fa-images"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">PhotoEditing</h3>
+              <p class="s-description text-center">
+                Advanced skills with compositing and re-touching images.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Services Section End-->
+  <!-- Portfolio section Start -->
+   
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+      <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3 class="section-title text-center"> <u class="heading-underline">Portfolio</u></h3>
+      </div>
+      <div class="gallery-title" >
+          <button class="btn btn-outline-success filter-button" data-filter="all">All</button>
+          <button class="btn btn-outline-info filter-button" data-filter="web">Web</button>
+          <button class="btn btn-outline-info filter-button" data-filter="CMS">CMS</button>
+          <button class="btn btn-outline-info filter-button" data-filter="Containerize">Spray</button>   
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-4 filter center web">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Grace Pharmacy Web</h5>
+              <img src="images/Grace.png" width="100%" alt="" srcset="">
+              <p class="card-text"></p>
+              <a href="https://bilalyounas47.github.io/Pharmacy-Bootstrap-Html5-Template/" class="btn btn-outline-info">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 filter center CMS">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Pharmcay Mangement System</h5>
+              <img src="images/CMS.png" width="100%" alt="" srcset="">
+              <p class="card-text text-center mt-2"> Live link will be upload soon.</p>
+              <a href="#" class="btn btn-outline-info disabled">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 filter center CMS">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Accountancy Mangement System</h5>
+              <img src="images/Account cms.png " width="100%" alt="" srcset="">
+              <p class="card-text text-center "> Live link will be upload soon.</p>
+              <a href="#" class="btn btn-outline-info disabled">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 filter center web">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">IT Space web</h5>
+              <img src="images/It web.png " width="100%" alt="" srcset="">
+              <p class="card-text text-center "> Live link will be upload soon.</p>
+              <a href="#" class="btn btn-outline-info disabled">Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     
+    </div>
+
+  </section>
+
+  <!-- Portfolio Section End -->
+
+  
+
+
+
+  <!--  Contact Section Start-->
+  <section class="contact pt-5"id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact1">
+            <div class="box-shadow">
+              <div class="row">
+                <div class="col-md-6">
+                  <h6 class="title pb-4"> <u class="heading-underline"> Send Message  </u> </h6>
+                  <div>
+                    <form  method="post" role="form">
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"  />
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5"  placeholder="Message"></textarea>
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-12 text-center">
+                          <button type="submit" class="btn btn-outline-info">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h6 class="title pb-3"><u class="heading-underline">
+                    Get in Touch</u></h6>
+                  <div class="more-info">
+                    <p class="lead pb-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                      expedita aperiam aliquid at. Facilis dolorum dolorem soluta quidem
+                      expedita aperiam aliquid at.
+
+                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                      mollitia inventore?
+                    </p>
+                    <ul class="Contact-list pb-2">
+                      <li> 
+                        <i class="fa fa-envelope "></i><a href="mailto:acridbilal@gmail.com"> Acridbilal@gmail.com</a>
+                      </li>
+                      <li>
+                        <i class="fas fa-phone-alt "></i><span>+923355407898</span>
+                     </li>
+                     <li>
+                      <i class="fas fa-map-marker-alt"></i><span> G-7, Islamabad, Pakistan</span>
+                     </li>
+                    </ul>
+                  </div>
+                  <div class="socials-links">
+                    <ul class="contact-icon mt-3">
+                      <li>
+                        <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://linkedin.com/in/itsbilal"><i class="fab fa-linkedin fa-2x"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </section>
+  <!--  Contact Section End-->
+  <!-- Footer SectiON Start -->
+  <footer class="End text-center">
+    <h6>All Right Reserved Bilal Younas @ 2020</h6>
+
+  </footer>
+  <!-- Footer Section End -->
+  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+
+$(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+    </script>
 </body>
 </html>
